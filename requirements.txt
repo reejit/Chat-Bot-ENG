@@ -1,5 +1,3 @@
-chatterbot
-chatterbot-corpus
 pyrogram
-spacy
 tgcrypto
+aiohttp
