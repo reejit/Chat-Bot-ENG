@@ -24,7 +24,6 @@ async def chat_bot(client, message):
 async def check_message(client, message):
     if message.text.startswith == '/':
         return False
-    return False
     elif message.chat.type == 'private':
         return True
     Bot = await client.get_me()
