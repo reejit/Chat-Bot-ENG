@@ -1,4 +1,5 @@
 import asyncio
+from pyrogram import pyrogram
 from pyrogram import filters
 from pyrogram.types import Message as message
 from chatbot import chatbot
