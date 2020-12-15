@@ -1,5 +1,6 @@
 import asyncio
 from pyrogram import filters
+from pyrogram.types import Message as message
 from chatbot import chatbot
 from chatbot.plugins.response import get_response
 
