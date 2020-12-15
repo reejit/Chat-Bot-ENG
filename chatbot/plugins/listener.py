@@ -1,5 +1,4 @@
 import asyncio
-from pyrogram import pyrogram
 from pyrogram import filters
 from pyrogram.types import Message as message
 from chatbot import chatbot
@@ -25,7 +24,7 @@ async def chat_bot(client, message):
 async def check_message(client, message):
     if message.text.startswith == '/':
         return False
-    elif pyrogram.message.type == 'text':
+    elif type.message== 'text':
         return True
     Bot = await client.get_me()
     if message.text.lower() == f"@{Bot.username}":
